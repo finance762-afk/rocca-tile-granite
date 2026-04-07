@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://rocca-tile.com/</loc>
+    <image:image>
+      <image:loc>https://i.imgur.com/1Jd20dJ.jpeg</image:loc>
+      <image:caption>Modern open kitchen remodel by Rocca Tile and Granite in Chino CA</image:caption>
+      <image:title>Rocca Tile and Granite Homepage Hero - Modern Kitchen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/SUDtWdP.jpeg</image:loc>
+      <image:caption>Bright modern kitchen with island and pendant lights</image:caption>
+      <image:title>Kitchen Remodeling Service Card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/7135LDU.jpeg</image:loc>
+      <image:caption>Bathroom vanity with patterned tile backsplash</image:caption>
+      <image:title>Bathroom Remodeling Service Card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/Uvaj7ZZ.jpeg</image:loc>
+      <image:caption>3D wavy textured wall tile installation</image:caption>
+      <image:title>Tile Installation Service Card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/Ri0nHhg.jpeg</image:loc>
+      <image:caption>White marble countertop with gold faucet</image:caption>
+      <image:title>Granite Countertops Service Card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/dg0mcaN.jpeg</image:loc>
+      <image:caption>Navy blue upper and white lower kitchen cabinets</image:caption>
+      <image:title>Cabinet Services Service Card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/4vCoIlC.jpeg</image:loc>
+      <image:caption>Neutral tile flooring installation</image:caption>
+      <image:title>Flooring Installation Service Card</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/82RnMGa.jpeg</image:loc>
+      <image:caption>Spacious open kitchen with dark cabinets and granite countertops</image:caption>
+      <image:title>About Snippet Split Image</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/a8Qermj.jpeg</image:loc>
+      <image:caption>Kitchen with espresso cabinets and granite countertops</image:caption>
+      <image:title>Process Section Split Image</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/kC3dYTt.jpeg</image:loc>
+      <image:caption>Double vanity with marble countertop</image:caption>
+      <image:title>Work Gallery - Double Vanity</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/992lfTu.jpeg</image:loc>
+      <image:caption>Walk-in glass shower with custom tile work</image:caption>
+      <image:title>Work Gallery - Walk-in Shower</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/NkkgfLe.jpeg</image:loc>
+      <image:caption>Sage green kitchen remodel</image:caption>
+      <image:title>Work Gallery - Sage Green Kitchen</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/IaCzfvr.jpeg</image:loc>
+      <image:caption>White quartz island with farmhouse sink and gold fixtures</image:caption>
+      <image:title>Work Gallery - Farmhouse Sink Island</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/Z7Z7Y5n.jpeg</image:loc>
+      <image:caption>Freestanding soaking tub in remodeled bathroom</image:caption>
+      <image:title>Work Gallery - Freestanding Tub</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/w08CHAg.jpeg</image:loc>
+      <image:caption>Navy blue double vanity with granite countertop</image:caption>
+      <image:title>Work Gallery - Navy Double Vanity</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/FJdxDpq.jpeg</image:loc>
+      <image:caption>Dark taupe stone-look tile shower</image:caption>
+      <image:title>Closing CTA Background</image:title>
+    </image:image>
+  </url>
+
+  <!-- Kitchen Remodeling -->
+  <url>
+    <loc>https://rocca-tile.com/services/kitchen-remodeling</loc>
+    <image:image>
+      <image:loc>https://i.imgur.com/SUDtWdP.jpeg</image:loc>
+      <image:caption>Modern kitchen remodel with island in Chino CA</image:caption>
+      <image:title>Kitchen Remodeling Hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/82RnMGa.jpeg</image:loc>
+      <image:caption>Open kitchen with dark cabinets and granite countertops</image:caption>
+      <image:title>Kitchen Remodeling - What We Build</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/k3D0e7o.jpeg</image:loc>
+      <image:caption>Open concept kitchen with white island</image:caption>
+      <image:title>Kitchen Remodeling - Materials</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/NkkgfLe.jpeg</image:loc>
+      <image:caption>Sage green kitchen cabinets with modern hardware</image:caption>
+      <image:title>Kitchen Remodeling - Process</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/ZRRBVEw.jpeg</image:loc>
+      <image:caption>Dark cabinets with mosaic tile backsplash</image:caption>
+      <image:title>Kitchen Remodeling Gallery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/IaCzfvr.jpeg</image:loc>
+      <image:caption>White quartz island with farmhouse sink</image:caption>
+      <image:title>Kitchen Remodeling Gallery</image:title>
+    </image:image>
+  </url>
+
+  <!-- Bathroom Remodeling -->
+  <url>
+    <loc>https://rocca-tile.com/services/bathroom-remodeling</loc>
+    <image:image>
+      <image:loc>https://i.imgur.com/7135LDU.jpeg</image:loc>
+      <image:caption>Patterned backsplash bathroom vanity</image:caption>
+      <image:title>Bathroom Remodeling Hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/992lfTu.jpeg</image:loc>
+      <image:caption>Walk-in glass shower with custom tile</image:caption>
+      <image:title>Bathroom Remodeling - Custom Showers</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/kC3dYTt.jpeg</image:loc>
+      <image:caption>Double vanity with marble countertop</image:caption>
+      <image:title>Bathroom Remodeling - Vanities</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/Z7Z7Y5n.jpeg</image:loc>
+      <image:caption>Freestanding soaking tub installation</image:caption>
+      <image:title>Bathroom Remodeling - Full Renovation</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/0sOK7pf.jpeg</image:loc>
+      <image:caption>Subway tile shower installation</image:caption>
+      <image:title>Bathroom Remodeling Gallery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/oCKDJlQ.jpeg</image:loc>
+      <image:caption>Floating vanity with open shelving</image:caption>
+      <image:title>Bathroom Remodeling Gallery</image:title>
+    </image:image>
+  </url>
+
+  <!-- Tile Installation -->
+  <url>
+    <loc>https://rocca-tile.com/services/tile-installation</loc>
+    <image:image>
+      <image:loc>https://i.imgur.com/Uvaj7ZZ.jpeg</image:loc>
+      <image:caption>3D wavy textured wall tile</image:caption>
+      <image:title>Tile Installation Hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/9TrciN7.jpeg</image:loc>
+      <image:caption>Vertical stacked stone-look tile wall</image:caption>
+      <image:title>Tile Installation - Range</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/w9neWxi.jpeg</image:loc>
+      <image:caption>Outdoor patio tile with decorative border</image:caption>
+      <image:title>Tile Installation - Technical</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/qs4y9lc.jpeg</image:loc>
+      <image:caption>Stone fireplace surround tile installation</image:caption>
+      <image:title>Tile Installation Gallery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/tGtvDfa.jpeg</image:loc>
+      <image:caption>Espresso floor-to-ceiling tile bathroom</image:caption>
+      <image:title>Tile Installation Gallery</image:title>
+    </image:image>
+  </url>
+
+  <!-- Granite Countertops -->
+  <url>
+    <loc>https://rocca-tile.com/services/granite-countertops</loc>
+    <image:image>
+      <image:loc>https://i.imgur.com/Ri0nHhg.jpeg</image:loc>
+      <image:caption>White marble countertop with gold faucet</image:caption>
+      <image:title>Granite Countertops Hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/LoKwYBK.jpeg</image:loc>
+      <image:caption>White quartz countertop with undermount sink</image:caption>
+      <image:title>Granite Countertops - Fabrication</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/52D4xUy.jpeg</image:loc>
+      <image:caption>White marble countertop with subway tile backsplash</image:caption>
+      <image:title>Granite Countertops - Materials</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/HaJnkNd.jpeg</image:loc>
+      <image:caption>Dark kitchen with granite countertops</image:caption>
+      <image:title>Granite Countertops Gallery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/gjuB5M8.jpeg</image:loc>
+      <image:caption>Dark countertop bathroom vanity</image:caption>
+      <image:title>Granite Countertops Gallery</image:title>
+    </image:image>
+  </url>
+
+  <!-- Cabinet Services -->
+  <url>
+    <loc>https://rocca-tile.com/services/cabinet-services</loc>
+    <image:image>
+      <image:loc>https://i.imgur.com/dg0mcaN.jpeg</image:loc>
+      <image:caption>Navy upper and white lower kitchen cabinets</image:caption>
+      <image:title>Cabinet Services Hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/Flzq1JO.jpeg</image:loc>
+      <image:caption>Modern navy cabinets with stainless appliances</image:caption>
+      <image:title>Cabinet Services - Full Range</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/DnaszCe.jpeg</image:loc>
+      <image:caption>Custom built-in closet system</image:caption>
+      <image:title>Cabinet Services - Built-Ins</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/UDeNSEh.jpeg</image:loc>
+      <image:caption>Traditional cherry wood kitchen cabinets</image:caption>
+      <image:title>Cabinet Services - Styles</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/5ZLqvip.jpeg</image:loc>
+      <image:caption>Espresso kitchen with mosaic backsplash</image:caption>
+      <image:title>Cabinet Services Gallery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/9ArIxM3.jpeg</image:loc>
+      <image:caption>White island with dark upper cabinets</image:caption>
+      <image:title>Cabinet Services Gallery</image:title>
+    </image:image>
+  </url>
+
+  <!-- Flooring Installation -->
+  <url>
+    <loc>https://rocca-tile.com/services/flooring-installation</loc>
+    <image:image>
+      <image:loc>https://i.imgur.com/4vCoIlC.jpeg</image:loc>
+      <image:caption>Neutral tile flooring installation</image:caption>
+      <image:title>Flooring Installation Hero</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/aXEc5nJ.jpeg</image:loc>
+      <image:caption>Large format outdoor patio tile</image:caption>
+      <image:title>Flooring Installation - Types</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/iKXABcq.jpeg</image:loc>
+      <image:caption>Light gray epoxy floor coating in garage</image:caption>
+      <image:title>Flooring Installation - Technical</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/bfU8taU.jpeg</image:loc>
+      <image:caption>Dark wood treads staircase installation</image:caption>
+      <image:title>Flooring Installation Gallery</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.imgur.com/Z39e2d9.jpeg</image:loc>
+      <image:caption>Staircase with wooden treads and metal balusters</image:caption>
+      <image:title>Flooring Installation Gallery</image:title>
+    </image:image>
+  </url>
+
+</urlset>

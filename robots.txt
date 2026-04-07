@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rocca-tile.com/sitemap.xml
+Sitemap: https://rocca-tile.com/sitemap-images.xml

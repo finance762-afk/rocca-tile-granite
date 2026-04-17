@@ -42,6 +42,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <p class="page-hero-subtitle">Complete Kitchen, Bathroom &amp; Flooring Solutions for Inland Empire Homeowners</p>
         <a href="tel:9092383188" class="hero-phone"><i data-lucide="phone" style="width:20px;height:20px;"></i> (909) 238-3188</a>
       </div>
+      <div class="section-divider section-divider--bottom" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 Q360,20 720,40 T1440,20 L1440,60 Z" fill="#FFFFFF"/></svg>
+      </div>
     </section>
 
     <!-- Breadcrumb -->
@@ -147,7 +150,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <section class="section">
       <div class="container">
         <h2 class="section-title" data-animate="fade-up">Why Inland Empire Homeowners Choose Rocca Tile &amp; Granite</h2>
-        <div class="benefits-grid" data-animate="fade-up">
+        <div class="benefits-grid">
 
           <div class="benefit-item">
             <div class="benefit-icon"><i data-lucide="shield-check" style="width:32px;height:32px;"></i></div>

@@ -2,7 +2,7 @@
 $pageTitle       = "Service Area | Rocca Tile & Granite LLC — Chino & Inland Empire, CA";
 $pageDescription = "Rocca Tile & Granite LLC serves Chino, Ontario, Pomona, Rancho Cucamonga, Upland, Diamond Bar, Corona, Riverside, and communities within 75 miles. Call (909) 238-3188.";
 $canonicalUrl    = "https://rocca-tile.com/service-area";
-$ogImage         = "https://i.imgur.com/h0utYwx.png";
+$ogImage         = "https://i.imgur.com/oHC2eR1.png";
 $currentPage     = "service-area";
 $heroImage       = "";
 $useSwiper       = false;
@@ -30,6 +30,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <h1>Serving Chino &amp; the Inland Empire — 75-Mile Radius</h1>
         <p>Kitchen Remodeling, Bathroom Remodeling, Tile, Granite, Cabinets &amp; Flooring Across Southern California</p>
         <a href="tel:+19092383188" class="hero-phone"><i data-lucide="phone" style="width:22px;height:22px;"></i> (909) 238-3188</a>
+      </div>
+      <div class="section-divider section-divider--bottom" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 Q360,20 720,40 T1440,20 L1440,60 Z" fill="#FFFFFF"/></svg>
       </div>
     </section>
 
@@ -82,7 +85,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- All Services Available -->
     <section>
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Every Service, Everywhere We Go</h2>
+        <h2 class="section-title reveal-up" style="text-align:center;">Every Service, Everywhere We Go</h2>
         <p class="section-subtitle prose-centered" style="text-align:center;">All of our services are available throughout our entire service area. No matter where you are in the 75-mile radius, you get the same crew, the same quality, and the same licensed contractor.</p>
         <div class="grid-3" data-animate="fade-up">
           <a href="/services/kitchen-remodeling" class="related-card">
@@ -122,7 +125,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Google Map -->
     <section style="background: var(--bg-alt);">
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Find Us in Chino, CA</h2>
+        <h2 class="section-title reveal-up" style="text-align:center;">Find Us in Chino, CA</h2>
         <div style="border-radius:var(--radius);overflow:hidden;box-shadow:var(--elevation-2);" data-animate="fade-up">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.8!2d-117.689!3d34.012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c32dc0b0b0b0b0%3A0x0!2s13641+Central+Ave%2C+Chino%2C+CA+91710!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Rocca Tile and Granite service area centered on Chino, CA"></iframe>
         </div>

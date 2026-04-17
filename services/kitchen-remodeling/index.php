@@ -27,7 +27,7 @@ $schemaMarkup = '[
       "@type": "LocalBusiness",
       "name": "Rocca Tile & Granite LLC",
       "telephone": "+1-909-238-3188",
-      "address": {"@type": "PostalAddress", "streetAddress": "13641 Central Ave", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710"}
+      "address": {"@type": "PostalAddress", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710"}
     },
     "areaServed": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 34.0122, "longitude": -117.6889}, "geoRadius": "75 mi"},
     "description": "Complete kitchen remodeling services including custom cabinets, granite countertops, tile backsplashes, flooring, and full gut-and-rebuild renovations."
@@ -83,10 +83,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
     <!-- Page Hero -->
     <section class="page-hero" style="background-image: url('https://i.imgur.com/SUDtWdP.jpeg');">
+      <div class="floating-accent floating-accent--gold float-animate" style="top:18%; right:6%; width:130px; height:130px;" aria-hidden="true">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="10" width="30" height="30" transform="rotate(15 25 25)" fill="currentColor"/><rect x="55" y="55" width="32" height="32" transform="rotate(-10 71 71)" fill="currentColor"/></svg>
+      </div>
       <div class="container">
-        <h1>Kitchen Remodeling in Chino, CA</h1>
+        <h1>Kitchen Remodeling <span class="text-accent">in Chino, CA</span></h1>
         <p>Custom Cabinets, Granite Countertops &amp; Complete Kitchen Renovations for Inland Empire Homeowners</p>
         <a href="tel:+19092383188" class="hero-phone"><i data-lucide="phone" style="width:22px;height:22px;"></i> (909) 238-3188</a>
+      </div>
+      <div class="section-divider section-divider--bottom" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 L0,30 Q720,60 1440,20 L1440,60 Z" fill="#FFFFFF"/></svg>
       </div>
     </section>
 
@@ -110,7 +116,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <section style="background: var(--bg-alt);">
       <div class="container">
         <div class="split-reverse">
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">What a Rocca Kitchen Remodel Includes</h2>
             <div class="prose">
               <p>Every kitchen we build is different, but most projects involve some combination of countertops, cabinets, backsplash, flooring, fixtures, and layout changes. We handle the full scope — not just one piece of it.</p>
@@ -119,7 +125,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <a href="/contact" class="btn-primary" style="margin-top:var(--space-xl);">Get a Free Kitchen Estimate</a>
           </div>
           <div class="split-img">
-            <img src="https://i.imgur.com/82RnMGa.jpeg" alt="Spacious open kitchen with dark cabinets and granite countertops in Chino home" width="800" height="600" loading="lazy">
+            <img src="https://i.imgur.com/XDRZX3d.jpeg" alt="Modern kitchen remodel with custom cabinets and quartz countertops by Rocca Tile and Granite in Chino" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -132,7 +138,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="split-img">
             <img src="https://i.imgur.com/k3D0e7o.jpeg" alt="Open concept kitchen with white island and modern finishes" width="800" height="600" loading="lazy">
           </div>
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">Materials That Fit Your Kitchen and Your Budget</h2>
             <div class="prose">
               <p>We work with every major countertop material — granite, quartz, marble, and solid surface — and source slabs directly from local fabricators so you get competitive pricing and fast turnaround. For cabinets, we build custom or install pre-made lines depending on your budget and timeline.</p>
@@ -197,7 +203,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="split-img">
             <img src="https://i.imgur.com/NkkgfLe.jpeg" alt="Sage green kitchen cabinets with modern hardware" width="800" height="600" loading="lazy">
           </div>
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">How Your Kitchen Remodel Comes Together</h2>
             <div class="process-steps">
               <div class="process-step">
@@ -250,7 +256,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <img src="https://i.imgur.com/ZRRBVEw.jpeg" alt="Dark kitchen cabinets with mosaic tile backsplash installed by Rocca Tile" width="600" height="375" loading="lazy">
           </div>
           <div class="service-gallery-item">
-            <img src="https://i.imgur.com/IaCzfvr.jpeg" alt="White quartz island with farmhouse sink and gold fixtures" width="600" height="375" loading="lazy">
+            <img src="https://i.imgur.com/ltBwWQU.jpeg" alt="Full kitchen remodel with updated island and cabinets in the Inland Empire" width="600" height="375" loading="lazy">
           </div>
         </div>
       </div>

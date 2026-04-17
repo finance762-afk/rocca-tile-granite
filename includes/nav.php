@@ -2,7 +2,7 @@
   <nav class="navbar" aria-label="Main navigation">
     <div class="container">
       <a href="/" class="navbar-logo">
-        <img src="https://i.imgur.com/h0utYwx.png" alt="Rocca Tile &amp; Granite LLC" width="180" height="50">
+        <img src="https://i.imgur.com/oHC2eR1.png" alt="Rocca Tile &amp; Granite LLC" width="280" height="235">
       </a>
 
       <ul class="nav-links">

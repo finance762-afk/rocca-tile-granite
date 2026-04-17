@@ -2,7 +2,7 @@
 $pageTitle       = "Thank You | Rocca Tile & Granite LLC";
 $pageDescription = "Thank you for contacting Rocca Tile & Granite LLC. We will respond within one business day.";
 $canonicalUrl    = "https://rocca-tile.com/thank-you";
-$ogImage         = "https://i.imgur.com/h0utYwx.png";
+$ogImage         = "https://i.imgur.com/oHC2eR1.png";
 $currentPage     = "thank-you";
 $heroImage       = "";
 $schemaMarkup    = '';

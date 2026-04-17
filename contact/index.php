@@ -2,7 +2,7 @@
 $pageTitle       = "Contact Rocca Tile & Granite LLC | Chino, CA — (909) 238-3188";
 $pageDescription = "Contact Rocca Tile & Granite LLC in Chino, CA for a free estimate on tile, granite, kitchen and bathroom remodeling. Call (909) 238-3188 or fill out our form.";
 $canonicalUrl    = "https://rocca-tile.com/contact";
-$ogImage         = "https://i.imgur.com/h0utYwx.png";
+$ogImage         = "https://i.imgur.com/oHC2eR1.png";
 $currentPage     = "contact";
 $heroImage       = "";
 $useSwiper       = false;
@@ -24,7 +24,7 @@ $schemaMarkup = '[
     "name": "Rocca Tile & Granite LLC",
     "telephone": "+1-909-238-3188",
     "email": "roccatile@yahoo.com",
-    "address": {"@type": "PostalAddress", "streetAddress": "13641 Central Ave", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710", "addressCountry": "US"},
+    "address": {"@type": "PostalAddress", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710", "addressCountry": "US"},
     "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "17:00"}],
     "contactPoint": {"@type": "ContactPoint", "telephone": "+1-909-238-3188", "contactType": "customer service", "availableLanguage": ["English", "Spanish"]}
   }
@@ -132,9 +132,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
               <div style="display:flex; align-items:flex-start; gap:var(--space-md); margin-bottom:var(--space-lg);">
                 <i data-lucide="map-pin" style="width:20px;height:20px;color:var(--primary);flex-shrink:0;margin-top:2px;"></i>
                 <div>
-                  <strong>Address</strong><br>
-                  13641 Central Ave<br>
-                  Chino, CA 91710
+                  <strong>Location</strong><br>
+                  Chino, CA 91710<br>
+                  Serving the Inland Empire
                 </div>
               </div>
 

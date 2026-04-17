@@ -2,7 +2,7 @@
 $pageTitle       = "Page Not Found | Rocca Tile & Granite LLC";
 $pageDescription = "The page you're looking for doesn't exist. Browse our services or contact Rocca Tile & Granite LLC at (909) 238-3188.";
 $canonicalUrl    = "https://rocca-tile.com/404";
-$ogImage         = "https://i.imgur.com/h0utYwx.png";
+$ogImage         = "https://i.imgur.com/oHC2eR1.png";
 $currentPage     = "404";
 $heroImage       = "";
 $schemaMarkup    = '';

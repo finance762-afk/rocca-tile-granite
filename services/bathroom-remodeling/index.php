@@ -27,7 +27,7 @@ $schemaMarkup = '[
       "@type": "LocalBusiness",
       "name": "Rocca Tile & Granite LLC",
       "telephone": "+1-909-238-3188",
-      "address": {"@type": "PostalAddress", "streetAddress": "13641 Central Ave", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710"}
+      "address": {"@type": "PostalAddress", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710"}
     },
     "areaServed": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 34.0122, "longitude": -117.6889}, "geoRadius": "75 mi"},
     "description": "Complete bathroom remodeling services including custom tile showers, granite vanities, tub-to-shower conversions, and full bathroom renovations."
@@ -87,6 +87,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <p>Custom Tile Showers, Granite Vanities &amp; Complete Bathroom Renovations</p>
         <a href="tel:+19092383188" class="hero-phone"><i data-lucide="phone" style="width:22px;height:22px;"></i> (909) 238-3188</a>
       </div>
+      <div class="section-divider section-divider--bottom" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 Q360,20 720,40 T1440,20 L1440,60 Z" fill="#FFFFFF"/></svg>
+      </div>
     </section>
 
     <!-- Breadcrumb -->
@@ -112,7 +115,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="split-img" data-animate="wipe-right">
             <img src="https://i.imgur.com/992lfTu.jpeg" alt="Custom walk-in tile shower with frameless glass enclosure installed by Rocca Tile in Chino" width="800" height="600" loading="lazy">
           </div>
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">Custom Tile Showers Built to Last</h2>
             <div class="prose">
               <p>Custom tile showers are our signature work. We build walk-in showers using porcelain, ceramic, natural stone, and mosaic accent tile — all set over proper waterproofing membranes that prevent moisture damage for decades. Every shower includes precision-sloped floors, linear or center drains, and frameless glass enclosures fitted to the exact opening.</p>
@@ -128,7 +131,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <section>
       <div class="container">
         <div class="split-reverse">
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">Vanities, Countertops &amp; Fixtures That Elevate the Room</h2>
             <div class="prose">
               <p>The vanity anchors a bathroom's design. We install single vanities, double vanities, and floating vanities in every style from traditional raised-panel to clean modern slab-front. Each one is paired with a custom-fabricated countertop — granite, quartz, or marble — cut and polished to fit the exact dimensions of your space, with undermount sinks for a seamless surface.</p>
@@ -145,8 +148,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Process Section (Standalone) -->
     <section style="background: var(--bg-alt);">
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">How Your Bathroom Remodel Comes Together</h2>
-        <div class="process-steps" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">How Your Bathroom Remodel Comes Together</h2>
+        <div class="process-steps">
           <div class="process-step">
             <div class="process-step-num">1</div>
             <div>
@@ -194,9 +197,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="container">
         <div class="split">
           <div class="split-img" data-animate="wipe-right">
-            <img src="https://i.imgur.com/Z7Z7Y5n.jpeg" alt="Freestanding soaking tub in a remodeled bathroom with modern tile surround" width="800" height="600" loading="lazy">
+            <img src="https://i.imgur.com/GGCr6b5.png" alt="Aerial view of a remodeled bathroom with freestanding tub and tile floor in the Inland Empire" width="800" height="600" loading="lazy">
           </div>
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">What Does a Full Bathroom Renovation Include?</h2>
             <div class="prose">
               <p>A full renovation means we handle everything inside the room — not just surfaces. That includes tub-to-shower conversions, freestanding tub installations, complete floor-to-ceiling tile, heated flooring systems, recessed lighting upgrades, exhaust fan replacement, and bathroom additions where none existed before. If it's in the bathroom, we build it or install it.</p>
@@ -210,10 +213,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Gallery -->
     <section>
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Bathroom Remodels Across the Inland Empire</h2>
-        <div class="service-gallery" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Bathroom Remodels Across the Inland Empire</h2>
+        <div class="service-gallery">
           <div class="service-gallery-item">
-            <img src="https://i.imgur.com/0sOK7pf.jpeg" alt="Subway tile shower with recessed niche and chrome fixtures installed by Rocca Tile in Chino" width="600" height="375" loading="lazy">
+            <img src="https://i.imgur.com/BOQ10aN.jpeg" alt="Walk-in tile shower with modern fixtures in a remodeled Chino bathroom" width="600" height="375" loading="lazy">
           </div>
           <div class="service-gallery-item">
             <img src="https://i.imgur.com/oCKDJlQ.jpeg" alt="Floating vanity with open shelving and vessel sink in modern Inland Empire bathroom" width="600" height="375" loading="lazy">
@@ -225,8 +228,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- FAQ -->
     <section style="background: var(--bg-alt);">
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Bathroom Remodeling Questions from Chino Homeowners</h2>
-        <div class="faq-list" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Bathroom Remodeling Questions from Chino Homeowners</h2>
+        <div class="faq-list reveal-up">
           <div class="faq-item answer-block">
             <h3>How much does a bathroom remodel cost in Chino?</h3>
             <p class="prose">Bathroom remodels in Chino typically range from $8,000 to $35,000. A basic refresh with new tile, vanity, and fixtures runs $8,000–$15,000. A full renovation with a custom tile shower, granite vanity, and layout changes falls between $20,000 and $35,000. We provide free estimates with itemized pricing so you know exactly where your budget goes.</p>
@@ -246,8 +249,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Related Services -->
     <section>
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Related Services</h2>
-        <div class="related-services" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Related Services</h2>
+        <div class="related-services">
           <a href="/services/kitchen-remodeling" class="related-card">
             <h3>Kitchen Remodeling</h3>
             <p>Full kitchen renovations with custom cabinets, granite countertops, and tile backsplashes.</p>

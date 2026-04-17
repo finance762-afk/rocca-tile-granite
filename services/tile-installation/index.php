@@ -27,7 +27,7 @@ $schemaMarkup = '[
       "@type": "LocalBusiness",
       "name": "Rocca Tile & Granite LLC",
       "telephone": "+1-909-238-3188",
-      "address": {"@type": "PostalAddress", "streetAddress": "13641 Central Ave", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710"}
+      "address": {"@type": "PostalAddress", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710"}
     },
     "areaServed": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 34.0122, "longitude": -117.6889}, "geoRadius": "75 mi"},
     "description": "Professional tile installation for floors, walls, showers, backsplashes, fireplace surrounds, and outdoor patios in ceramic, porcelain, natural stone, mosaic, glass, and large-format tile."
@@ -87,6 +87,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <p>Floors, Walls, Showers, Backsplashes &amp; Patios — Ceramic, Porcelain, Natural Stone &amp; Mosaic</p>
         <a href="tel:+19092383188" class="hero-phone"><i data-lucide="phone" style="width:22px;height:22px;"></i> (909) 238-3188</a>
       </div>
+      <div class="section-divider section-divider--bottom" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 Q360,20 720,40 T1440,20 L1440,60 Z" fill="#FFFFFF"/></svg>
+      </div>
     </section>
 
     <!-- Breadcrumb -->
@@ -108,8 +111,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Benefits Grid -->
     <section style="background: var(--bg-alt);">
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Why Homeowners Choose Rocca for Tile Installation</h2>
-        <div class="benefits-grid" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Why Homeowners Choose Rocca for Tile Installation</h2>
+        <div class="benefits-grid">
           <div class="benefit-item">
             <div class="benefit-icon"><i data-lucide="layers" style="width:24px;height:24px;"></i></div>
             <div>
@@ -149,7 +152,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="split-img" data-animate="wipe-right">
             <img src="https://i.imgur.com/9TrciN7.jpeg" alt="Vertical stacked stone-look tile wall installation" width="800" height="600" loading="lazy">
           </div>
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">From Simple Floor Tile to Complex Mosaic Patterns</h2>
             <div class="prose">
               <p>Not every tile job is the same. Some homeowners need clean, straightforward floor tile across a kitchen or hallway. Others want an intricate mosaic backsplash, a herringbone shower wall, or a decorative accent feature that becomes the focal point of a room. We handle the full range — from basic subway tile and large-format porcelain to hand-cut natural stone mosaics and 3D textured wall panels.</p>
@@ -174,7 +177,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <section style="background: var(--bg-alt);">
       <div class="container">
         <div class="split-reverse">
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">What Goes Into a Professional Tile Installation?</h2>
             <div class="prose">
               <p>The tile you see on the surface is only part of the job. Underneath, there's a system of preparation that determines whether the installation holds up for years or starts cracking within months. We start every project by evaluating the substrate — checking for level, moisture, and structural soundness. Floors get leveled with self-leveling compound where needed. Shower walls get cement backer board and waterproofing membrane. Outdoor surfaces get proper slope for drainage.</p>
@@ -191,8 +194,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Process Section (Standalone) -->
     <section>
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">How Your Tile Project Comes Together</h2>
-        <div class="process-steps" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">How Your Tile Project Comes Together</h2>
+        <div class="process-steps">
           <div class="process-step">
             <div class="process-step-num">1</div>
             <div>
@@ -228,8 +231,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Gallery -->
     <section style="background: var(--bg-alt);">
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Tile Work Across the Inland Empire</h2>
-        <div class="service-gallery" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Tile Work Across the Inland Empire</h2>
+        <div class="service-gallery">
           <div class="service-gallery-item">
             <img src="https://i.imgur.com/qs4y9lc.jpeg" alt="Stone fireplace surround tile installation by Rocca Tile in the Inland Empire" width="600" height="375" loading="lazy">
           </div>
@@ -243,8 +246,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- FAQ -->
     <section>
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Tile Installation Questions from Chino Homeowners</h2>
-        <div class="faq-list" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Tile Installation Questions from Chino Homeowners</h2>
+        <div class="faq-list reveal-up">
           <div class="faq-item answer-block">
             <h3>What types of tile do you install?</h3>
             <p class="prose">We install all types: ceramic, porcelain, natural stone (travertine, marble, slate), mosaic, glass, 3D textured panels, and large-format tile. We handle both indoor and outdoor installations — floors, walls, showers, backsplashes, patios, pool decks, fireplace surrounds, and entryways.</p>
@@ -264,8 +267,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Related Services -->
     <section style="background: var(--bg-alt);">
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Related Services</h2>
-        <div class="related-services" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Related Services</h2>
+        <div class="related-services">
           <a href="/services/kitchen-remodeling" class="related-card">
             <h3>Kitchen Remodeling</h3>
             <p>Complete kitchen renovations with custom cabinets, granite countertops, and tile backsplashes.</p>

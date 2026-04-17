@@ -20,11 +20,10 @@ $schemaMarkup = '[
     "url": "https://rocca-tile.com",
     "telephone": "+1-909-238-3188",
     "email": "roccatile@yahoo.com",
-    "image": "https://i.imgur.com/h0utYwx.png",
-    "logo": "https://i.imgur.com/h0utYwx.png",
+    "image": "https://i.imgur.com/oHC2eR1.png",
+    "logo": "https://i.imgur.com/oHC2eR1.png",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "13641 Central Ave",
       "addressLocality": "Chino",
       "addressRegion": "CA",
       "postalCode": "91710",
@@ -84,7 +83,7 @@ $schemaMarkup = '[
     "@type": "Organization",
     "name": "Rocca Tile & Granite LLC",
     "url": "https://rocca-tile.com",
-    "logo": "https://i.imgur.com/h0utYwx.png",
+    "logo": "https://i.imgur.com/oHC2eR1.png",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+1-909-238-3188",
@@ -159,8 +158,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
     <!-- ===== HERO ===== -->
     <section class="hero" style="background-image: url('https://i.imgur.com/1Jd20dJ.jpeg');">
+      <div class="floating-accent floating-accent--gold float-animate" style="top:18%; left:6%; width:140px; height:140px;" aria-hidden="true">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="10" width="35" height="35" transform="rotate(12 27 27)" fill="currentColor"/><rect x="55" y="55" width="35" height="35" transform="rotate(-8 72 72)" fill="currentColor"/></svg>
+      </div>
+      <div class="floating-accent floating-accent--burgundy float-animate--slow" style="bottom:12%; right:8%; width:180px; height:180px;" aria-hidden="true">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><polygon points="50,5 95,50 50,95 5,50" fill="currentColor"/></svg>
+      </div>
       <div class="container">
-        <h1>Tile, Granite &amp; Remodeling<br>Crafted for Your Home</h1>
+        <h1>Tile, Granite &amp; Remodeling<br><span class="text-accent">Crafted</span> for Your Home</h1>
         <p>Licensed Tile, Granite &amp; Remodeling Contractors Serving Chino &amp; the Inland Empire Since 2004</p>
         <a href="tel:+19092383188" class="hero-phone">
           <i data-lucide="phone" style="width:28px;height:28px;"></i>
@@ -172,6 +177,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <a href="/services" class="btn-secondary">View Our Work</a>
           </div>
         </div>
+      </div>
+      <div class="section-divider section-divider--bottom" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 L0,20 Q360,0 720,20 T1440,20 L1440,60 Z" fill="#1A1A1A"/></svg>
       </div>
     </section>
 
@@ -205,16 +213,16 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     </section>
 
     <!-- ===== SERVICES GRID ===== -->
-    <section>
+    <section class="has-depth">
       <div class="container">
         <div style="text-align:center; margin-bottom: var(--space-2xl);">
           <span class="eyebrow-label">What We Do</span>
-          <h2 class="section-title">Kitchen, Bath &amp; Flooring — Start to Finish</h2>
-          <p class="section-subtitle prose-centered">From custom granite countertops to full kitchen gut-and-rebuilds, we handle every phase of your remodel in-house.</p>
+          <h2 class="section-title reveal-up">Kitchen, Bath &amp; <span class="text-accent">Flooring</span> — Start to Finish</h2>
+          <p class="section-subtitle-accent reveal-up" style="text-align:center; margin-inline:auto;">From custom granite countertops to full kitchen gut-and-rebuilds, we handle every phase of your remodel in-house.</p>
         </div>
-        <div class="grid-3" data-animate="fade-up">
+        <div class="grid-3">
           <!-- Kitchen Remodeling -->
-          <a href="/services/kitchen-remodeling" class="service-card">
+          <a href="/services/kitchen-remodeling" class="service-card card-tint-1 reveal-up">
             <div class="service-card-img">
               <img src="https://i.imgur.com/SUDtWdP.jpeg" alt="Modern kitchen remodel with white island and pendant lights in Chino, CA" width="600" height="450" loading="lazy">
             </div>
@@ -225,7 +233,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             </div>
           </a>
           <!-- Bathroom Remodeling -->
-          <a href="/services/bathroom-remodeling" class="service-card">
+          <a href="/services/bathroom-remodeling" class="service-card card-tint-2 reveal-up">
             <div class="service-card-img">
               <img src="https://i.imgur.com/7135LDU.jpeg" alt="Bathroom vanity with patterned tile backsplash by Rocca Tile and Granite" width="600" height="450" loading="lazy">
             </div>
@@ -236,7 +244,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             </div>
           </a>
           <!-- Tile Installation -->
-          <a href="/services/tile-installation" class="service-card">
+          <a href="/services/tile-installation" class="service-card card-tint-3 reveal-up">
             <div class="service-card-img">
               <img src="https://i.imgur.com/Uvaj7ZZ.jpeg" alt="3D wavy textured wall tile installation in the Inland Empire" width="600" height="450" loading="lazy">
             </div>
@@ -247,7 +255,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             </div>
           </a>
           <!-- Granite Countertops -->
-          <a href="/services/granite-countertops" class="service-card">
+          <a href="/services/granite-countertops" class="service-card card-tint-2 reveal-up">
             <div class="service-card-img">
               <img src="https://i.imgur.com/Ri0nHhg.jpeg" alt="White marble countertop with gold faucet installed by Rocca Tile" width="600" height="450" loading="lazy">
             </div>
@@ -258,7 +266,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             </div>
           </a>
           <!-- Cabinet Services -->
-          <a href="/services/cabinet-services" class="service-card">
+          <a href="/services/cabinet-services" class="service-card card-tint-1 reveal-up">
             <div class="service-card-img">
               <img src="https://i.imgur.com/dg0mcaN.jpeg" alt="Two-tone navy and white kitchen cabinets in Chino home" width="600" height="450" loading="lazy">
             </div>
@@ -269,7 +277,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             </div>
           </a>
           <!-- Flooring Installation -->
-          <a href="/services/flooring-installation" class="service-card">
+          <a href="/services/flooring-installation" class="service-card card-tint-3 reveal-up">
             <div class="service-card-img">
               <img src="https://i.imgur.com/4vCoIlC.jpeg" alt="Neutral tile flooring installation for Inland Empire residence" width="600" height="450" loading="lazy">
             </div>
@@ -283,15 +291,19 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
     </section>
 
-    <!-- ===== ABOUT SPLIT ===== -->
-    <section style="background: var(--bg-alt);">
+    <!-- ===== ABOUT SPLIT (asymmetric broken grid) ===== -->
+    <section style="background: var(--color-bg-alt); position: relative;">
+      <div class="floating-accent floating-accent--stone float-rotate-slow" style="top:10%; right:4%; width:220px; height:220px;" aria-hidden="true">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="20" width="60" height="60" fill="none" stroke="currentColor" stroke-width="1"/><rect x="32" y="32" width="36" height="36" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+      </div>
       <div class="container">
-        <div class="split">
-          <div class="about-split-img">
-            <img src="https://i.imgur.com/82RnMGa.jpeg" alt="Spacious open kitchen with dark cabinets and granite countertops by Rocca Tile and Granite" width="800" height="600" loading="lazy">
+        <div class="grid-broken">
+          <div class="about-split-img reveal-left">
+            <img src="https://i.imgur.com/XDRZX3d.jpeg" alt="Modern custom kitchen remodel by Rocca Tile and Granite in the Inland Empire" width="800" height="600" loading="lazy">
           </div>
-          <div data-animate="fade-up">
-            <h2 class="section-title">Over 20 Years of Craftsmanship in the Inland Empire</h2>
+          <div class="reveal-right">
+            <span class="eyebrow-label">Who We Are</span>
+            <h2 class="section-title">Over 20 Years of <span class="text-accent">Craftsmanship</span> in the Inland Empire</h2>
             <div class="prose">
               <p>Rocca Tile &amp; Granite LLC has been transforming homes across Chino and the Inland Empire since 2004. Founded by Filiberto Reyes, we started as a specialized tile and stone contractor and grew into a full-service remodeling firm — handling everything from custom granite countertop fabrication to complete kitchen and bathroom gut-and-rebuilds.</p>
               <p style="margin-top: var(--space-md);">Licensed with the California Contractors State License Board (#927459) and backed by over two decades of hands-on experience, we bring the kind of detail and durability that homeowners notice for years after the project wraps up.</p>
@@ -303,22 +315,23 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     </section>
 
     <!-- ===== STAT COUNTERS ===== -->
-    <section class="stats-section">
-      <div class="container">
-        <div class="stats-grid" data-animate="fade-up">
-          <div class="stat-item">
+    <section class="stats-section" style="position: relative; overflow: hidden;">
+      <div class="stat-watermark" aria-hidden="true">2004</div>
+      <div class="container" style="position: relative;">
+        <div class="stats-grid">
+          <div class="stat-item reveal-scale">
             <div class="stat-number" data-count="20" data-suffix="+">0+</div>
             <div class="stat-label">Years in Business</div>
           </div>
-          <div class="stat-item">
+          <div class="stat-item reveal-scale">
             <div class="stat-number" data-count="1000" data-suffix="+">0+</div>
             <div class="stat-label">Projects Completed</div>
           </div>
-          <div class="stat-item">
+          <div class="stat-item reveal-scale">
             <div class="stat-number" data-count="75">0</div>
             <div class="stat-label">Mile Service Radius</div>
           </div>
-          <div class="stat-item">
+          <div class="stat-item reveal-scale">
             <div class="stat-number">CSLB</div>
             <div class="stat-label">Licensed &amp; Insured</div>
           </div>
@@ -327,9 +340,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     </section>
 
     <!-- ===== MID-PAGE CTA BANNER ===== -->
-    <section class="cta-banner">
-      <div class="container" data-animate="fade-up">
-        <h2>Your Kitchen or Bathroom, Done Right the First Time</h2>
+    <section class="cta-banner" style="position:relative;">
+      <div class="section-divider section-divider--top" aria-hidden="true">
+        <svg viewBox="0 0 1440 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 1440,0 1440,40 0,0" fill="#8B1E2E"/></svg>
+      </div>
+      <div class="container reveal-up">
+        <h2>Your Kitchen or Bathroom, <span class="text-accent" style="color: var(--color-accent-light);">Done Right</span> the First Time</h2>
         <p class="prose-centered">Tell us about your project and get a detailed estimate — no pressure, no obligation. Just honest numbers from a licensed contractor who has been doing this for 20+ years.</p>
         <a href="tel:+19092383188" style="display:block; font-size:1.5rem; font-weight:700; margin-bottom: var(--space-lg); color: #fff;">(909) 238-3188</a>
         <a href="/contact" class="btn-primary">Request Your Free Estimate</a>
@@ -340,8 +356,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <section>
       <div class="container">
         <div class="split-reverse">
-          <div data-animate="fade-up">
-            <h2 class="section-title">How Every Project Comes Together</h2>
+          <div class="reveal-right">
+            <span class="eyebrow-label">Our Process</span>
+            <h2 class="section-title">How Every Project <span class="text-accent">Comes Together</span></h2>
             <div class="process-steps">
               <div class="process-step">
                 <div class="process-step-num">1</div>
@@ -373,7 +390,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
               </div>
             </div>
           </div>
-          <div class="process-split-img">
+          <div class="process-split-img reveal-left">
             <img src="https://i.imgur.com/a8Qermj.jpeg" alt="Kitchen with espresso cabinets and granite countertops by Rocca Tile" width="800" height="600" loading="lazy">
           </div>
         </div>
@@ -381,29 +398,33 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     </section>
 
     <!-- ===== WORK GALLERY ===== -->
-    <section style="background: var(--bg-alt);">
+    <section style="background: var(--color-bg-alt); position: relative;">
+      <div class="section-divider section-divider--top" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 Q360,0 720,30 T1440,0 L1440,60 Z" fill="#FAF7F2"/></svg>
+      </div>
       <div class="container">
         <div style="text-align:center; margin-bottom: var(--space-2xl);">
-          <h2 class="section-title">Recent Work Across the Inland Empire</h2>
-          <p class="section-subtitle prose-centered">Kitchens, bathrooms, tile, stone, and flooring — a sample of what we build for homeowners like you.</p>
+          <span class="eyebrow-label reveal-up">Gallery</span>
+          <h2 class="section-title reveal-up">Recent Work Across the <span class="text-accent">Inland Empire</span></h2>
+          <p class="section-subtitle-accent reveal-up" style="text-align:center; margin-inline:auto;">Kitchens, bathrooms, tile, stone, and flooring — a sample of what we build for homeowners like you.</p>
         </div>
-        <div class="gallery-grid" data-animate="fade-up">
-          <div class="gallery-item">
+        <div class="gallery-grid">
+          <div class="gallery-item reveal-scale">
             <img src="https://i.imgur.com/kC3dYTt.jpeg" alt="Double vanity with marble countertop installed in Chino bathroom" width="600" height="800" loading="lazy">
           </div>
-          <div class="gallery-item">
+          <div class="gallery-item reveal-scale">
             <img src="https://i.imgur.com/992lfTu.jpeg" alt="Walk-in glass shower with custom tile work by Rocca Tile" width="600" height="450" loading="lazy">
           </div>
-          <div class="gallery-item">
+          <div class="gallery-item reveal-scale">
             <img src="https://i.imgur.com/NkkgfLe.jpeg" alt="Sage green kitchen remodel in the Inland Empire" width="600" height="450" loading="lazy">
           </div>
-          <div class="gallery-item">
-            <img src="https://i.imgur.com/IaCzfvr.jpeg" alt="White quartz island with farmhouse sink and gold fixtures" width="800" height="450" loading="lazy">
+          <div class="gallery-item reveal-scale">
+            <img src="https://i.imgur.com/gOA77xn.jpeg" alt="Custom bathroom tile installation with natural stone accent wall" width="800" height="450" loading="lazy">
           </div>
-          <div class="gallery-item">
+          <div class="gallery-item reveal-scale">
             <img src="https://i.imgur.com/Z7Z7Y5n.jpeg" alt="Freestanding soaking tub in remodeled Chino bathroom" width="600" height="450" loading="lazy">
           </div>
-          <div class="gallery-item">
+          <div class="gallery-item reveal-scale">
             <img src="https://i.imgur.com/w08CHAg.jpeg" alt="Navy blue double vanity with granite countertop and gold hardware" width="600" height="450" loading="lazy">
           </div>
         </div>
@@ -411,12 +432,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     </section>
 
     <!-- ===== FAQ ===== -->
-    <section>
+    <section class="has-depth">
       <div class="container">
         <div style="text-align:center; margin-bottom: var(--space-2xl);">
-          <h2 class="section-title">Common Questions from Inland Empire Homeowners</h2>
+          <span class="eyebrow-label reveal-up">Answers</span>
+          <h2 class="section-title reveal-up">Common Questions from <span class="text-accent">Inland Empire</span> Homeowners</h2>
         </div>
-        <div class="faq-list" data-animate="fade-up">
+        <div class="faq-list reveal-up">
           <div class="faq-item">
             <h3>How much does a kitchen remodel cost in Chino?</h3>
             <p class="prose">Kitchen remodels in the Chino and Inland Empire area typically range from $15,000 to $60,000 depending on scope. A basic refresh — new countertops, backsplash, and cabinet refacing — runs $15,000 to $25,000. A full gut-and-rebuild with custom granite, new cabinetry, and flooring usually falls between $35,000 and $60,000. We provide free on-site estimates with detailed breakdowns.</p>

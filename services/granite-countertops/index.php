@@ -27,7 +27,7 @@ $schemaMarkup = '[
       "@type": "LocalBusiness",
       "name": "Rocca Tile & Granite LLC",
       "telephone": "+1-909-238-3188",
-      "address": {"@type": "PostalAddress", "streetAddress": "13641 Central Ave", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710"}
+      "address": {"@type": "PostalAddress", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710"}
     },
     "areaServed": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 34.0122, "longitude": -117.6889}, "geoRadius": "75 mi"},
     "description": "Custom granite, quartz, marble, and natural stone countertop fabrication and installation for kitchens, bathrooms, and islands in Chino and the Inland Empire."
@@ -88,6 +88,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <p>Custom Fabrication &amp; Installation &mdash; Granite, Quartz, Marble &amp; Natural Stone</p>
         <a href="tel:+19092383188" class="hero-phone"><i data-lucide="phone" style="width:22px;height:22px;"></i> (909) 238-3188</a>
       </div>
+      <div class="section-divider section-divider--bottom" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 Q360,20 720,40 T1440,20 L1440,60 Z" fill="#FFFFFF"/></svg>
+      </div>
     </section>
 
     <!-- Breadcrumb -->
@@ -110,7 +113,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <section style="background: var(--bg-alt);">
       <div class="container">
         <div class="split-reverse">
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">Template-to-Install: How We Build Your Countertops</h2>
             <div class="prose">
               <p>Every countertop project starts with precise templating at your home. We measure your existing layout, mark sink and cooktop cutout positions, and discuss edge profiles, seam placement, and backsplash height. These measurements go directly to the fabrication shop &mdash; nothing is approximated from a sketch or left to guesswork. If you need undermount sink installation, we coordinate that into the cutout template so everything aligns on install day.</p>
@@ -132,7 +135,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="split-img">
             <img src="https://i.imgur.com/52D4xUy.jpeg" alt="White marble countertop with subway tile backsplash" width="800" height="600" loading="lazy">
           </div>
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">Which Countertop Material Is Right for Your Kitchen?</h2>
             <div class="prose">
               <p>Granite is natural stone &mdash; every slab has unique veining and color variation, it handles heat well, and with periodic sealing it resists stains for decades. Quartz is engineered from crushed stone and resin, making it non-porous with no sealing required and more consistent in pattern. Both are excellent choices for kitchens and bathrooms, and we install both regularly across the Inland Empire.</p>
@@ -146,8 +149,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Gallery -->
     <section style="background: var(--bg-alt);">
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Countertop Installations Across the Inland Empire</h2>
-        <div class="service-gallery" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Countertop Installations Across the Inland Empire</h2>
+        <div class="service-gallery">
           <div class="service-gallery-item">
             <img src="https://i.imgur.com/HaJnkNd.jpeg" alt="Dark granite kitchen countertops with stainless steel appliances in Chino home" width="600" height="375" loading="lazy">
           </div>
@@ -171,7 +174,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Process Section (Standalone) -->
     <section>
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">From Slab Selection to Finished Surface</h2>
+        <h2 class="section-title reveal-up" style="text-align:center;">From Slab Selection to Finished Surface</h2>
         <div class="process-steps" style="max-width:720px;margin-inline:auto;" data-animate="fade-up">
           <div class="process-step">
             <div class="process-step-num">1</div>
@@ -215,8 +218,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- FAQ -->
     <section style="background: var(--bg-alt);">
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Granite Countertop Questions from Inland Empire Homeowners</h2>
-        <div class="faq-list" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Granite Countertop Questions from Inland Empire Homeowners</h2>
+        <div class="faq-list reveal-up">
           <div class="faq-item answer-block">
             <h3>How much do granite countertops cost in the Inland Empire?</h3>
             <p class="prose">$40&ndash;$100 per square foot installed, depending on stone type and edge profile. Standard granite runs $40&ndash;$60/sqft. Premium granite and quartz typically fall between $60&ndash;$80/sqft. Exotic marble and quartzite start at $80/sqft and go up from there. All pricing includes template, fabrication, and installation. We provide free estimates with no obligation.</p>
@@ -236,8 +239,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Related Services -->
     <section>
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Related Services</h2>
-        <div class="related-services" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Related Services</h2>
+        <div class="related-services">
           <a href="/services/kitchen-remodeling" class="related-card">
             <h3>Kitchen Remodeling</h3>
             <p>Complete kitchen renovations &mdash; cabinets, countertops, backsplash, flooring, and layout changes.</p>

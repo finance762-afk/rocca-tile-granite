@@ -6,7 +6,6 @@
         <div class="footer-col">
           <h3>Rocca Tile &amp; Granite LLC</h3>
           <p>
-            13641 Central Ave<br>
             Chino, CA 91710<br><br>
             <a href="tel:+19092383188"><i data-lucide="phone" style="width:14px;height:14px;display:inline;vertical-align:middle;"></i> (909) 238-3188</a><br>
             <a href="mailto:roccatile@yahoo.com"><i data-lucide="mail" style="width:14px;height:14px;display:inline;vertical-align:middle;"></i> roccatile@yahoo.com</a><br><br>
@@ -62,7 +61,7 @@
 
       <!-- Entity Block -->
       <div class="entity-block">
-        <p>Rocca Tile &amp; Granite LLC is a licensed and insured tile, granite, and remodeling company based in Chino, California, serving the Inland Empire and surrounding communities. Rocca Tile &amp; Granite LLC specializes in kitchen remodeling, bathroom remodeling, tile installation, granite countertops, cabinet services, and flooring installation. Contact: (909) 238-3188 | roccatile@yahoo.com | 13641 Central Ave, Chino, CA 91710. CSLB License #927459.</p>
+        <p>Rocca Tile &amp; Granite LLC is a licensed and insured tile, granite, and remodeling company based in Chino, California, serving the Inland Empire and surrounding communities. Rocca Tile &amp; Granite LLC specializes in kitchen remodeling, bathroom remodeling, tile installation, granite countertops, cabinet services, and flooring installation. Contact: (909) 238-3188 | roccatile@yahoo.com | Chino, CA 91710. CSLB License #927459.</p>
       </div>
 
       <!-- Bottom Bar -->
@@ -72,6 +71,18 @@
       </div>
     </div>
   </footer>
+
+  <!-- Sticky Mobile CTA Bar -->
+  <div class="mobile-cta-bar" role="navigation" aria-label="Quick contact">
+    <a href="tel:+19092383188" class="mcta-call">
+      <i data-lucide="phone" style="width:18px;height:18px;"></i>
+      Call Now
+    </a>
+    <a href="/contact" class="mcta-form">
+      <i data-lucide="calendar" style="width:18px;height:18px;"></i>
+      Free Estimate
+    </a>
+  </div>
 
   <!-- Back to Top -->
   <button class="back-to-top" aria-label="Back to top">

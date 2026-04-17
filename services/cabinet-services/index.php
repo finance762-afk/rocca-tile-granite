@@ -27,7 +27,7 @@ $schemaMarkup = '[
       "@type": "LocalBusiness",
       "name": "Rocca Tile & Granite LLC",
       "telephone": "+1-909-238-3188",
-      "address": {"@type": "PostalAddress", "streetAddress": "13641 Central Ave", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710"}
+      "address": {"@type": "PostalAddress", "addressLocality": "Chino", "addressRegion": "CA", "postalCode": "91710"}
     },
     "areaServed": {"@type": "GeoCircle", "geoMidpoint": {"@type": "GeoCoordinates", "latitude": 34.0122, "longitude": -117.6889}, "geoRadius": "75 mi"},
     "description": "Custom cabinet construction, pre-made cabinet installation, refacing, refinishing, and painting for kitchens, bathrooms, closets, and built-in storage."
@@ -87,6 +87,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <p>Custom Construction, Painting, Refinishing, Refacing &amp; Installation</p>
         <a href="tel:+19092383188" class="hero-phone"><i data-lucide="phone" style="width:22px;height:22px;"></i> (909) 238-3188</a>
       </div>
+      <div class="section-divider section-divider--bottom" aria-hidden="true">
+        <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,60 Q360,20 720,40 T1440,20 L1440,60 Z" fill="#FFFFFF"/></svg>
+      </div>
     </section>
 
     <!-- Breadcrumb -->
@@ -112,7 +115,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="split-img">
             <img src="https://i.imgur.com/Flzq1JO.jpeg" alt="Modern navy kitchen cabinets with stainless steel appliances" width="800" height="600" loading="lazy">
           </div>
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">Every Cabinet Service Under One Roof</h2>
             <div class="prose">
               <p>Whether you need cabinets built from scratch for a new kitchen layout or want to breathe life into existing boxes, Rocca Tile &amp; Granite handles the full range. We build custom cabinets in any style — shaker, flat-panel, raised-panel, glass-front, open shelving — and install pre-made and semi-custom lines from major manufacturers when budget or timeline calls for it.</p>
@@ -127,8 +130,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Benefits Grid -->
     <section>
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">What Sets Our Cabinet Work Apart</h2>
-        <div class="benefits-grid" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">What Sets Our Cabinet Work Apart</h2>
+        <div class="benefits-grid">
           <div class="benefit-item">
             <div class="benefit-icon"><i data-lucide="hammer" style="width:24px;height:24px;"></i></div>
             <div>
@@ -175,7 +178,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <section style="background: var(--bg-alt);">
       <div class="container">
         <div class="split-reverse">
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">Built-Ins, Closets &amp; Storage That Actually Work</h2>
             <div class="prose">
               <p>Cabinets aren't just for kitchens. We design and build walk-in closet systems with adjustable shelving and dedicated sections for shoes, folded items, and hanging garments. Pantry cabinets with pull-out drawers. Linen cabinets sized for awkward bathroom alcoves. Entertainment centers that hide wiring and fit your exact wall dimensions.</p>
@@ -196,7 +199,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="split-img">
             <img src="https://i.imgur.com/UDeNSEh.jpeg" alt="Traditional cherry wood kitchen cabinets" width="800" height="600" loading="lazy">
           </div>
-          <div data-animate="fade-up">
+          <div class="reveal-up">
             <h2 class="section-title">Should You Reface, Refinish, or Replace Your Cabinets?</h2>
             <div class="prose">
               <p>Refinishing is the most affordable option at $3,000–$7,000 for a standard kitchen. It works well when you like the door style but the paint is chipping, the stain has faded, or the color just feels dated. We sand everything down, prime, and apply a durable factory-quality finish in any color you choose.</p>
@@ -210,8 +213,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Process Section -->
     <section style="background: var(--bg-alt);">
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">How Your Cabinet Project Comes Together</h2>
-        <div class="process-steps" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">How Your Cabinet Project Comes Together</h2>
+        <div class="process-steps">
           <div class="process-step">
             <div class="process-step-num">1</div>
             <div>
@@ -247,8 +250,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- FAQ -->
     <section>
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Cabinet Questions from Inland Empire Homeowners</h2>
-        <div class="faq-list" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Cabinet Questions from Inland Empire Homeowners</h2>
+        <div class="faq-list reveal-up">
           <div class="faq-item answer-block">
             <h3>What's the difference between cabinet refacing and refinishing?</h3>
             <p class="prose">Refacing replaces doors, drawer fronts, and applies new veneer to cabinet boxes while keeping the existing structure. Refinishing involves sanding and repainting or re-staining existing doors and boxes. Refacing costs more but gives a completely new look. Refinishing works well when the door style is good but the finish is worn.</p>
@@ -268,8 +271,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Gallery -->
     <section style="background: var(--bg-alt);">
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Cabinet Work Across the Inland Empire</h2>
-        <div class="service-gallery" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Cabinet Work Across the Inland Empire</h2>
+        <div class="service-gallery">
           <div class="service-gallery-item">
             <img src="https://i.imgur.com/5ZLqvip.jpeg" alt="Espresso kitchen cabinets with mosaic tile backsplash installed by Rocca Tile" width="600" height="375" loading="lazy">
           </div>
@@ -283,8 +286,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <!-- Related Services -->
     <section>
       <div class="container">
-        <h2 class="section-title" style="text-align:center;" data-animate="fade-up">Related Services</h2>
-        <div class="related-services" data-animate="fade-up">
+        <h2 class="section-title reveal-up" style="text-align:center;">Related Services</h2>
+        <div class="related-services">
           <a href="/services/kitchen-remodeling" class="related-card">
             <h3>Kitchen Remodeling</h3>
             <p>Complete kitchen renovations — cabinets, countertops, backsplash, and flooring in one project.</p>

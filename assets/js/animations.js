@@ -7,7 +7,9 @@
   'use strict';
 
   // --- Scroll Reveal (IntersectionObserver) ---
-  const animatedElements = document.querySelectorAll('[data-animate]');
+  const animatedElements = document.querySelectorAll(
+    '[data-animate], .reveal-up, .reveal-down, .reveal-left, .reveal-right, .reveal-scale'
+  );
 
   if (animatedElements.length && 'IntersectionObserver' in window) {
     const observer = new IntersectionObserver(
@@ -18,11 +20,11 @@
             el.classList.add('in-view');
 
             // Stagger grid children
-            const parent = el.closest('.grid-2, .grid-3, .grid-asym');
+            const parent = el.closest('.grid-2, .grid-3, .grid-asym, .gallery-grid, .stats-grid, .benefits-grid, .related-services');
             if (parent) {
               const siblings = Array.from(parent.children);
               const index = siblings.indexOf(el);
-              const delay = Math.min(index * 100, 400);
+              const delay = Math.min(index * 90, 450);
               el.style.transitionDelay = delay + 'ms';
             }
 

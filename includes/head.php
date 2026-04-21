@@ -69,6 +69,9 @@
   <?php echo $schemaMarkup; ?>
   </script>
   <?php endif; ?>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZRW2TFEZW"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RZRW2TFEZW');</script>
 </head>
 <body>
   <!-- Skip to Content -->

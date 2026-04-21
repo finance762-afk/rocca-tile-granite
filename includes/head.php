@@ -55,7 +55,7 @@
 
   <?php if ($currentPage === 'home'): ?>
   <!-- Google Search Console Verification — replace with actual code -->
-  <!-- <meta name="google-site-verification" content="XXXXXXXXXX"> -->
+  <meta name="google-site-verification" content="7Z1PptolE3u2XRBPL02RicFwkpGF61f4HPB3m7LqHRw" />
   <?php endif; ?>
 
   <?php if (!empty($heroImage)): ?>

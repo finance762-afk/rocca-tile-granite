@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . "/site-config.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -72,6 +73,7 @@
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZRW2TFEZW"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RZRW2TFEZW');</script>
+<?php require_once __DIR__ . '/edit-mode.php'; ?>
 </head>
 <body>
   <!-- Skip to Content -->

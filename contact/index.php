@@ -61,7 +61,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             <h2 class="section-title">Request a Free Estimate</h2>
             <p class="prose" style="margin-bottom: var(--space-xl); color: var(--text-light);">Tell us about your project and we'll get back to you within one business day with an estimate — no pressure, no obligation.</p>
 
-            <form action="https://formsubmit.co/roccatile@yahoo.com" method="POST">
+            <form action="https://db.pageone.cloud/functions/v1/leads/rocca-tile-granite" method="POST">
               <!-- Hidden Fields -->
               <input type="hidden" name="_next" value="https://rocca-tile.com/thank-you">
               <input type="hidden" name="_captcha" value="false">
